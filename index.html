@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HTML Configuration & Title -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CV</title>
+
+<!-- Link to Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- (Optional) Icons – only needed if students use <i class="fab fa-github"> etc. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<iframe src="Head.htm" height="48" style="width:100%; border:none; display: block; overflow: hidden;" scrolling="no"></iframe> <!-- Introduces the Global Navbar in this page -->
+
+<body>
+    <header>
+        <h1>Toby Wright</h1>
+        <p>Student at REDACTED<a href:"mailto:1234567@example.com"></p>
+        <p></p> <!-- Blank line -->
+        <!-- Pulls data from assets folder, displays an image: 200px x 200px -->
+        <img src="assets/pfp.png" id="image1" alt="UntitledDistribution" width="250" height="250" title="Profile">
+    </header>
+
+    <!-- About Section -->
+     <section id="SmallGlobal">
+        <p style="text-align: center;"><strong>Status: Studying</strong></p>
+        <p style="text-align: center;"><strong>Studying: Computing</strong></p>
+     </section>
+
+    <section id="Global">
+        <h2>Describe Yourself</h2>
+        <p>Hello! I'm [REDACTED], a dedicated student passionate about technology and innovation. I enjoy learning new skills and applying them to real-world projects.</p>
+    </section>
+    <!-- End About section-->
+    <p></p> <!-- Inserts a blank line to give space from header -->
+
+    <!--Profile Section-->
+    <profile section>
+    <section id="Global">
+        <h2>Profile</h2>
+        <p>I am very interested into Learning about computers and how they work, I enjoy using my skills to assist others</p>
+    <!--Experience Section-->
+    </section>
+        <section id="Global">
+        <h2>Experience</h2>
+        <p>I had work experience history with the following companies...[REDACTED] - Where I was preparing computers to be work-ready</p>
+    </section>
+    <!--Projects Section-->
+    <section id="Global">
+        <h2>Projects</h2>
+        <p>I have a variety of projects on my GitHub page to give you an idea of what I do.</p>
+        <p>&nbsp;</p>
+        <section id="extra-info-section">
+            <button onclick="showExtraInfo()">See my active GitHub repos...</button>
+        </section>
+        <p>&nbsp;</p>
+        <section id="extra-info">
+            <p id="extra-info"></p> <!--This is where the content is pasted from button click-->
+        </section>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="Global"> 
+    <h2>Skills</h2>
+        <ul class="custom-list">
+            <li>Computing.</li>
+            <li>Retaining my privacy online.</li>
+        </ul>
+    </section>
+
+    <!--Education Section-->
+    <section id="Global">
+        <h2>Education</h2>
+        <p>I'm currently studying at [REDACTED] and have completed my Computing course.</p>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>&copy; 2026 UntitledDistribution</footer>
+     
+
+    <script src="script.js"></script>
+</body>
+</html>

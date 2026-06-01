@@ -1,0 +1,204 @@
+/* ==========================
+   HEADER (TOP OF PAGE)
+   ========================== */
+
+/* Styles the header section containing name and email */
+header {
+    text-align: center;     /* Centres all text */
+    padding: 25px 20px;     /* Space inside the header */
+    background: #222;       /* Dark background */
+    border-radius: 0 0 30px 30px; /* Manually setting rounded corners for bottom half of banner */
+    color: white;           /* White text */
+}
+
+/* ==========================
+   GLOBAL / GENERAL STYLES
+   ========================== */
+ 
+/* The * selector targets EVERY element on the page.
+   We use this to reset spacing and make layouts easier to control. */
+*
+ {
+    margin: 0;              /* Removes default browser spacing */
+    padding: 0;             /* Removes default browser padding */
+    box-sizing: border-box; /* Makes width/height calculations easier */
+    font-family: Arial, sans-serif; /* Sets a clean readable font */
+}
+
+/* Styles applied to the whole page */
+body {
+    background-color: #f6f6f8; /* Light grey background */
+    color: #333;               /* Dark grey text (easier on the eyes) */
+    line-height: 1.6;          /* Adds space between lines of text */
+}
+
+/* Everything inside the header block */
+header {
+  overflow-x: hidden; /* Bugfix - Horizontal scroll appears during hover of h1 in header. */
+}
+
+/* Main name heading */
+header h1 {
+    font-size: 2.0rem;      /* Large heading size */
+    margin-bottom: 2.5px;   /* Space below the heading */
+ 
+}
+
+header h1:hover {
+  transform: scale(1.4); /* just to get my Name to pop out */
+  color: #09a529;
+}
+ 
+/* Subtitle / contact line */
+header p {
+  font-size: 1.5rem;
+}
+ 
+header a {
+  color: #0cc53a;
+  text-decoration: none;
+}
+ 
+header a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================
+   NAVIGATION BAR
+   ========================== */
+
+iframe {
+  background-color: #09a529; /* Solid color of iFrame when it is loading */
+}   
+
+/* Styles the navigation bar container */
+nav {
+    background-color: #09a529; /* Dark background "try color" */
+ 
+}
+ 
+/* Removes bullet points and lays out items in a row */
+nav ul {
+    list-style: none;       /* Removes bullet points */
+    display: flex;          /* Puts items side-by-side */
+    flex-wrap: wrap;        /* Allows wrapping on small screens */
+    justify-content: center;/* Centres the menu */
+}
+ 
+/* Space between each menu item next weeks lesson  */
+nav ul li {
+    margin: 0 10px;
+}
+ 
+/* Styles the navigation links */
+nav ul li a {
+    display: block;         /* Makes whole area clickable */
+    padding: 12px 16px;     /* Clickable spacing */
+    color: white;           /* White text */
+    text-decoration: none;  /* No underline */
+    font-weight: 600;       /* Slightly bold text                "try font weight"  */
+}
+ 
+/* Hover effect when mouse moves over links */
+nav ul li a:hover {
+    background-color: #adbe14; /* Lighter background on hover     "try color"  */
+}
+
+/* Styling the image---- Next week session  */
+#image1 {
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 6px solid #333;
+}
+ 
+#image2 {
+    border-radius: 10px;
+    border: 6px solid #333;
+}
+ 
+#image3 {
+    border-radius: 10px;
+    border: 6px solid #333;
+}
+
+/* ==========================
+   ABOUT SECTION (IMAGE + TEXT)
+   ========================== */
+ 
+/* Layout for the About section */
+
+#Global {
+     max-width: 900px;
+     margin: 20px auto;
+     padding: 30px 20px;
+     border-radius: 15px;
+     /* background-color: rgb(97, 182, 221); */
+     background-color: #bebebe;
+}
+
+#SmallGlobal {
+     max-width: 300px;
+     margin: 20px auto;
+     padding: 30px 20px;
+     border-radius: 15px;
+     /* background-color: rgb(97, 182, 221); */
+     background-color: #bebebe;
+}
+
+/* center only the heading text */
+#profile h2 {
+    text-align: left;
+}
+
+/* ==========================
+   SKILLS LIST
+   ========================== */
+ 
+/* Removes bullet points from skills list */
+.custom-list {
+    list-style-position: inside;
+    padding-left: 10px;
+}
+ 
+ 
+/* Individual skill items */
+.custom-list li {
+    padding: 1px 0;         /* Space between skills */
+}
+
+#extra-info {
+    background-color: #cecece;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+#extra-info-section button {
+background-color: #565656;
+color: white;
+padding: 20px 30px;
+border: none;
+border-radius: 16px;
+cursor: pointer;
+}
+
+
+/* ==========================
+   FOOTER
+   ========================== */
+ 
+/* Footer at the bottom of the page */
+footer {
+    text-align: center;     /* Centres text */
+    padding: 15px 10px;
+    background-color: #222; /* Dark background */
+    color: white;           /* White text */
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+/* Create 
